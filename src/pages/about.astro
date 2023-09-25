@@ -1,0 +1,11 @@
+---
+const myName = 'Husky';
+const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
+---
+
+<body>
+  <h1 class="text-3xl font-bold underline text-cyan-200">About me -- {myName}</h1>
+	<ul>
+		{skills.map((skill) => <li class="skill">{skill}</li>)}
+	</ul>
+</body>
